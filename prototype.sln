@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D92D96A-7705-43A5-AAAD-1936F9228B2A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose-debug.yml = docker-compose-debug.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9264FAB4-E0B3-4B05-858E-91DD0B0AA16C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{477F2B99-4C64-4F56-871F-BD68A8D3658A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "secrets", "secrets", "{5F4FECB7-F7E2-4BB1-9B1A-A91269B7A91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{9D17F1EB-5277-4597-87DB-9BDC96224D4C}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\define-secrets.sh = scripts\define-secrets.sh
+		scripts\nginx-entrypoint-debug.sh = scripts\nginx-entrypoint-debug.sh
+		scripts\openssl-generate.sh = scripts\openssl-generate.sh
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prototype", "src\prototype\prototype.csproj", "{438B6FE2-826B-47DA-A05F-0699AABB9A8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "openssl", "openssl", "{22E89974-575D-4A88-A78A-567DE6C77150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nginx", "nginx", "{3B1DF508-CFEF-4AA2-A632-D59832D34A40}"
+	ProjectSection(SolutionItems) = preProject
+		etc\nginx\nginx-debug.conf = etc\nginx\nginx-debug.conf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{503216BE-D64F-4E4C-B79C-2047D815E039}"
+	ProjectSection(SolutionItems) = preProject
+		etc\docker\nginx-debug.Dockerfile = etc\docker\nginx-debug.Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{438B6FE2-826B-47DA-A05F-0699AABB9A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438B6FE2-826B-47DA-A05F-0699AABB9A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438B6FE2-826B-47DA-A05F-0699AABB9A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438B6FE2-826B-47DA-A05F-0699AABB9A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C20600B9-6AA2-4E7D-9908-6A7A287A54BB}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9264FAB4-E0B3-4B05-858E-91DD0B0AA16C} = {0D92D96A-7705-43A5-AAAD-1936F9228B2A}
+		{477F2B99-4C64-4F56-871F-BD68A8D3658A} = {0D92D96A-7705-43A5-AAAD-1936F9228B2A}
+		{5F4FECB7-F7E2-4BB1-9B1A-A91269B7A91C} = {0D92D96A-7705-43A5-AAAD-1936F9228B2A}
+		{9D17F1EB-5277-4597-87DB-9BDC96224D4C} = {0D92D96A-7705-43A5-AAAD-1936F9228B2A}
+		{438B6FE2-826B-47DA-A05F-0699AABB9A8E} = {9264FAB4-E0B3-4B05-858E-91DD0B0AA16C}
+		{22E89974-575D-4A88-A78A-567DE6C77150} = {477F2B99-4C64-4F56-871F-BD68A8D3658A}
+		{3B1DF508-CFEF-4AA2-A632-D59832D34A40} = {477F2B99-4C64-4F56-871F-BD68A8D3658A}
+		{503216BE-D64F-4E4C-B79C-2047D815E039} = {477F2B99-4C64-4F56-871F-BD68A8D3658A}
+	EndGlobalSection
+EndGlobal
