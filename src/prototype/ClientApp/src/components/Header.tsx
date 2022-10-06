@@ -25,7 +25,7 @@ export default class Header extends Component<IProps, IState> {
     render() {
         const {  } = this.props;
         return (
-            <div className="w-full h-auto md:w-[65rem] md:h-[12rem] rounded-xl justify-center items-center m-1 p-8 md:p-0 bg-zinc-200 dark:bg-zinc-800 bg-opacity-90">
+            <div className="w-full h-auto md:h-[12rem] rounded-xl justify-center items-center m-1 p-8 md:p-0 bg-zinc-200 dark:bg-zinc-800 bg-opacity-90">
                 <div className="md:p-8 text-center">
                     <div>
                         <div className="text-4xl font-extrabold">

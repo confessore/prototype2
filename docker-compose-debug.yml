@@ -58,8 +58,6 @@ secrets:
         file: secrets/postgres-user
     postgres-password:
         file: secrets/postgres-password
-    discord-token:
-        file: secrets/discord-token
 
 volumes:
 
