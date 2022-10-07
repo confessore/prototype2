@@ -26,7 +26,7 @@ export default class Footer extends Component<IProperties, IState> {
     render() {
         const { year } = this.state;
         return (
-            <div className="md:flex w-full h-auto md:w-[32rem] md:h-[12rem] rounded-xl items-center m-1 p-8 md:p-0 bg-zinc-200 dark:bg-zinc-800 bg-opacity-90">
+            <div className="md:flex w-full h-auto md:h-[12rem] rounded-xl justify-center items-center m-1 p-8 md:p-0 bg-zinc-200 dark:bg-zinc-800 bg-opacity-90">
                 <div className="md:pl-6 text-center">
                     <a href="https://linkedin.com/in/confessore">
                         <span>
