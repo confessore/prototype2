@@ -23,8 +23,8 @@ function App() {
         <div className="flex flex-wrap justify-center items-center">
           <Service icon={<GlobeAmericasIcon />} title="go global" highlight="serve in most major nations on the planet" description="when customer service and reliability mean everything, borders mean nothing" />
           <Service icon={<CodeBracketIcon />} title="we'll handle the nerd stuff" highlight="dreams become reality" description="everyone gets to send their kids to college or drive lambos if they're in to that kind of thing; we're not here to judge" />
-          <Service icon={<CloudIcon />} title="we're your partner in the clouds" highlight="swift and responsive service availability in most major nations" description="redundancy and international stability is ensured with multi-regional replication" />
-          <Service icon={<CakeIcon />} title="the cake is not a lie" highlight="scout's honor 🙋‍♂️" description="we throw mad cake parties here" />
+          <Service icon={<CloudIcon />} title="we're your partner in the clouds" highlight="swift and responsive service availability anywhere your people are" description="redundancy and international stability is ensured with multi-regional replication" />
+          <Service icon={<CakeIcon />} title="the cake is not a lie" highlight="scout's honor 🙋‍♂️" description="we throw mad cake parties" />
         </div>
         <Footer />
       </div>
